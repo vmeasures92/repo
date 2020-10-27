@@ -1,7 +1,10 @@
 /* CSS files add styling rules to your content */
 
 body {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(image/b1)
+  background-image: url(https://cdn.glitch.com/9ff2536f-059f-40d6-966a-ef89ca398251%2FGradient.jpg?v=1603775959618);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
 }
