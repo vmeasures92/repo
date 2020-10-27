@@ -1,8 +1,5 @@
 /* CSS files add styling rules to your content */
-@font-face {
-    font-family: "steelfish_bd;
-    src: url("https://cdn.glitch.com/9ff2536f-059f-40d6-966a-ef89ca398251%2Fsteelfish%20bd.ttf?v=1603780280850);
-}
+
 body {
   background-image: url(https://cdn.glitch.com/9ff2536f-059f-40d6-966a-ef89ca398251%2FGradient_BW.jpg?v=1603779691048);
   background-attachment: fixed;
@@ -38,8 +35,10 @@ body {
 
 
 h1 {
-  font-style: italic;
+  text-transform:uppercase;
+  font-style: bolf;
   font-size: 2.0rem;
+  font-weight: 1000;
   color: #D7DF21;
 }
 
