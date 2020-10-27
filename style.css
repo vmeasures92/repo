@@ -3,10 +3,33 @@
 body {
   background-image: url(https://cdn.glitch.com/9ff2536f-059f-40d6-966a-ef89ca398251%2FGradient.jpg?v=1603775959618);
   background-attachment: fixed;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  width: 80%;
+  height: 20px solid #fff;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+
+}
+
+.blog{
+  margin-bottom: 20px;
+}
+
+.date{
+  color: #fff;
+  letter-spacing: 0.2rem;
+  text-transform:uppercase;
+  font-weight: 600;
+}
+
+.paragraph{
+  border-left: 5px solid #fff;
+  padding-left: 5px;
 }
 
 h1 {
