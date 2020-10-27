@@ -1,12 +1,13 @@
 /* CSS files add styling rules to your content */
 
 body {
-  background-image: url(https://cdn.glitch.com/9ff2536f-059f-40d6-966a-ef89ca398251%2FGradient.jpg?v=1603775959618);
+  background-image: url(https://cdn.glitch.com/9ff2536f-059f-40d6-966a-ef89ca398251%2FGradient_BW.jpg?v=1603779691048);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 80%;
+  border: 20px solid #D7DF21;
   height: 20px solid #fff;
   padding: 20px;
   margin: 20px auto;
@@ -42,5 +43,12 @@ h1 {
 hr {
   border: 0;
   height: 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+p {
+  color: #fff;
+  font-weight: 100;
   
 }
