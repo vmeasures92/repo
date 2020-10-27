@@ -1,6 +1,8 @@
 /* CSS files add styling rules to your content */
-@import url(https://cdn.glitch.com/9ff2536f-059f-40d6-966a-ef89ca398251%2Fsteelfish%20bd.ttf?v=1603780280850);
-  
+@font-face {
+    font-family: "steelfish_bd;
+    src: url("https://cdn.glitch.com/9ff2536f-059f-40d6-966a-ef89ca398251%2Fsteelfish%20bd.ttf?v=1603780280850);
+}
 body {
   background-image: url(https://cdn.glitch.com/9ff2536f-059f-40d6-966a-ef89ca398251%2FGradient_BW.jpg?v=1603779691048);
   background-attachment: fixed;
@@ -23,14 +25,14 @@ body {
 }
 
 .date {
-  color: #fff;
+  color: #000000;
   letter-spacing: 0.2rem;
   text-transform:uppercase;
   font-weight: 600;
 }
 
 .paragraph{
-  border-left: 5px solid #fff;
+  border-left: 5px solid #D7DF21;
   padding-left: 5px;
 }
 
@@ -38,8 +40,7 @@ body {
 h1 {
   font-style: italic;
   font-size: 2.0rem;
-  font-family: url(https://cdn.glitch.com/9ff2536f-059f-40d6-966a-ef89ca398251%2Fsteelfish%20bd.ttf?v=1603780280850);
-  color: #fff;
+  color: #D7DF21;
 }
 
 hr {
@@ -51,6 +52,5 @@ hr {
 
 p {
   color: #fff;
-  font-weight: 100;
-  
+  font-weight: 100; 
 }
