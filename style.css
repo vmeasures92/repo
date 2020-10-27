@@ -1,6 +1,7 @@
 /* CSS files add styling rules to your content */
 
 body {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(image/b1)
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
 }
